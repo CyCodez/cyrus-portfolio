@@ -1009,14 +1009,18 @@ nav a.active span {
 .project-actions a {
   font: 600 8px var(--mono);
   letter-spacing: 0.12em;
-  color: #b8c2d4;
+ /* color: var(--blue); */
   display: flex;
   align-items: center;
   gap: 7px;
 }
+.project-actions .live-demo-btn{
+  color: var(--blue)
+}
 .project-actions a:hover {
   color: var(--blue);
 }
+
 .contact {
   padding-bottom: 80px;
 }

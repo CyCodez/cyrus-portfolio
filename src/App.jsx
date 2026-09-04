@@ -814,7 +814,7 @@ function ProjectCard({ project }) {
           ))}
         </div>
         <div className="project-actions">
-          <a href={project.live} target="_blank" rel="noreferrer">
+          <a href={project.live} className="live-demo-btn" target="_blank" rel="noreferrer">
             LIVE DEMO <FaExternalLinkAlt />
           </a>
           <a href={project.github} target="_blank" rel="noreferrer">
