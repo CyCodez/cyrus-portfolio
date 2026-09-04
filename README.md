@@ -1,6 +1,6 @@
 # Cyrus Uwaoma — Full-Stack Software Engineer Portfolio
 
-![Portfolio Preview](./public/portfolio-preview.png)
+![Portfolio Preview](./public/portfolio-preview.jpeg)
 
 ## Overview
 
@@ -15,7 +15,7 @@ The portfolio goes beyond displaying projects. It is designed to demonstrate how
 ## 🚀 Live Portfolio
 
 **Portfolio:**  
-https://cyruz-porfolio.netlify.app/
+https://cyrus-portfolio-01.netlify.app/
 
 **GitHub:**  
 https://github.com/CyCodez

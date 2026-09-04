@@ -3439,3 +3439,57 @@ body {
     justify-self: start;
   }
 }
+
+/* =========================================
+   MOBILE HERO — PREVENT HEADLINE OVERFLOW
+   ========================================= */
+
+@media (max-width: 600px) {
+
+  .hero {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    padding-left: 38px;
+    padding-right: 24px;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  .hero-copy {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    overflow: visible;
+  }
+
+  .hero h1 {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+
+    /* Smaller on phones */
+    font-size: clamp(3.1rem, 12vw, 4.6rem);
+
+    line-height: 0.88;
+    letter-spacing: -0.065em;
+
+    /* Prevent the word from escaping */
+    overflow-wrap: break-word;
+    word-break: normal;
+  }
+
+  .hero h1 span {
+    max-width: 100%;
+  }
+
+  .hero-text {
+    max-width: 100%;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .hero-actions {
+    max-width: 100%;
+  }
+}
